@@ -10,32 +10,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <title>Luis - Programming Student</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Luis.dev</title>
 </head>
 
 <body>
-    <div class="container mt-5 main-wrapper">
+    <div class="container mt-5 main-wrapper"> 
 
         <nav class="navbar navbar-expand-lg mb-5 p-3 custom-card">
-            <div class="container-fluid">
-                <a class="navbar-brand fw-bold text-highlight" href="#">Luis.Dev</a>
-                <div class="navbar-nav d-flex flex-row gap-3">
-                    <a class="nav-link active" href="#">Home</a>
-                    <a class="nav-link" href="#">Blog</a>
-                    <a class="nav-link" href="#">Projects</a>
-                    <a class="nav-link" href="#">About me</a>
-                </div>
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold text-highlight" href="#">Luis.Dev</a>
+
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <i class="bi bi-list text-highlight"></i> </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav ms-auto gap-3">
+                <a class="nav-link active" href="./index.html">Home</a>
+                <a class="nav-link" href="./blog.html">Blog</a>
+                <a class="nav-link" href="./projects.html">Projects</a>
+                <a class="nav-link" href="./aboutme.html">About me</a>
             </div>
-        </nav>
+        </div>
+    </div>
+</nav>
 
         <div class="row">
-            <div class="col-md-6 d-flex flex-column justify-content-between mb-4">
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-between mb-4">
                 
                 <div class="intro-section">
                     <p class="greeting text-muted mb-0">Hello.</p>
                     <h1 class="main-title fw-bold">I'm Luis</h1>
                     <p class="role-text fw-bold">I'm a programming student</p>
-                    
                     <a href="./aboutme.html" class="btn btn-custom-action mt-4 fw-bold">Meet me</a>
                 </div>
 
@@ -63,7 +70,35 @@
                 </div>
             </div>
         </div>
+          <div class="row mt-4">
 
+    <div class="col-12 col-lg-4 mb-3">
+        <div class="custom-card p-2">
+            <a href="#" class="nav-link d-flex align-items-center justify-content-center gap-3">
+                <i class="bi bi-instagram"></i>
+                <span>Instagram</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-12 col-lg-4 mb-3">
+        <div class="custom-card p-2">
+            <a href="#" class="nav-link d-flex align-items-center justify-content-center gap-3">
+                <i class="bi bi-discord"></i>
+                <span>Discord</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-12 col-lg-4 mb-3">
+        <div class="custom-card p-2">
+            <a href="#" class="nav-link d-flex align-items-center justify-content-center gap-3">
+                <i class="bi bi-archive-fill"></i>
+                <span>Substack</span>
+            </a>
+        </div>
+    </div>
+</div>
     </div>
 
     <script src="./js/script.js"></script>
