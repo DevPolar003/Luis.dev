@@ -1,0 +1,47 @@
+:root {
+    --bg-dark: #1e1e2e;
+    --card-bg: #2b2d42;
+    --accent-pink: #ff79c6;
+    --accent-cyan: #8be9fd;
+    --accent-green: #50fa7b;
+    --border-main: 3px solid #000000;
+    --shadow: 6px 6px 0px #000000;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: #f8f8f2;
+    font-family: 'JetBrains Mono', monospace; 
+}
+
+.custom-card {
+    background-color: var(--card-bg);
+    border: var(--border-main) !important; 
+    box-shadow: var(--shadow);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.nav-link {
+    color: #f8f8f2 !important;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid var(--accent-cyan);
+    color: var(--accent-cyan) !important;
+}
+
+.btn-custom {
+    background-color: var(--accent-pink);
+    border: var(--border-main);
+    box-shadow: 4px 4px 0px #000000;
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn-custom:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px #ffffff;
+}
