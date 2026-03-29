@@ -1,0 +1,1 @@
+Este projeto foca na construção de uma interface responsiva e moderna utilizando Bootstrap 5, HTML5 e CSS3, com lógica de comportamento implementada em JavaScript. A arquitetura foi planejada para escalabilidade, prevendo a integração futura com uma API REST em Java e persistência de dados em MySQL.
