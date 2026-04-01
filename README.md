@@ -16,7 +16,27 @@ O Luis.dev foi desenvolvido para praticar a integração entre uma API REST em J
 - **Spring Web**
 
 ### Frontend
+
 - **HTML5 & CSS3**
 - **JavaScript ES6+** 
 - **Bootstrap 5.3** 
 - **Bootstrap Icons**
+
+### Executar o Backend:
+        clone o repositório: 
+        git clone https://github.com/DevPolar003/Luis.dev/
+    
+        Abra o projeto na sua IDE favorita (IntelliJ, Eclipse ou VS Code).
+
+        Execute a classe DemoApplication.java.
+
+        O servidor iniciará em http://localhost:8080.
+
+    Acessar o Blog:
+
+        Com o servidor rodando, abra o navegador e acesse:
+        http://localhost:8080/blog.html
+
+📝 Endpoints da API
+
+    GET /api/posts: Retorna a lista de todas as postagens em formato JSON.
